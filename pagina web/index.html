@@ -1,0 +1,528 @@
+
+
+<html>
+<html lang="es"><style>
+
+header{
+position: relative;
+text-align: center;
+color: white;
+}
+
+body{
+margin:0;
+}
+
+header img{
+width: 100%;
+display:block;
+}
+
+nav{
+background-color:#e97a74;
+padding:12px;
+text-align:center;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+font-size:18px;
+font-weight:bold;
+margin:20px;
+padding:8px 15px;
+border-radius:20px;
+}
+
+nav a:hover{
+background-color:#c95f59;
+}
+
+#inicio{
+background-color:#fff3f1;
+padding:40px;
+display:flex;
+align-items:center;
+gap:40px;}
+
+#inicio h1{
+font-size:65px !important;
+color:#c95f59;
+font family:'Georgia', sans-serif;
+margin-bottom:20px;
+align-items:center;
+}
+.texto{
+width:50%;
+}
+.texto p{
+font-size:25px;
+color:#444;
+line-height:1.6;
+font-family:'Arial', sans-serif;
+} 
+.imagen{
+width:50%;
+
+}
+.imagen img{
+width:100%;
+border-radius:15px;
+}
+
+.anuncio{
+overflow:hidden;
+white-space:nowrap;
+font-size:22px;
+color:#c95f59;
+animation:mover 20s linear infinite;
+}
+
+@keyframes mover{
+0%{transform:translateX(100%);}
+100%{transform:translateX(-100%);}
+}
+
+
+#productos{
+  text-align:center;
+  padding:40px;
+  background:#fff0f5;
+}
+
+#productos h2{
+  font-size:45px;
+  margin-bottom:30px;
+  color:#e57373;
+letter-spacing:2px;
+}
+
+.contenedor-productos{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:25px;
+align-items:flex-start;
+}
+
+.producto{
+  width:220px;
+  background:white;
+  border-radius:15px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  padding:10px;
+  cursor:pointer;
+  transition:transform .25s;
+}
+
+.producto:hover{
+  transform:scale(1.05);
+}
+
+.producto summary{
+  list-style:none;
+text-align:center;
+}
+
+.producto img{
+  width:100%;
+  border-radius:10px;
+}
+
+.producto p{
+  font-size:18px;
+  margin-top:10px;
+  color:#444;
+font-weight:bold;
+}
+
+.producto p{
+  font-size:18px;
+  margin-top:10px;
+  color:#444;
+font-weight:bold;
+}
+
+#servicios{
+text-align:center;
+padding:40px;
+background:#fff0f5;
+}
+
+#servicios h2{
+font-size:45px;
+margin-bottom:15px;
+color:#e57373;
+}
+
+.descripcion{
+font-size:20px;
+color:#444;
+margin-bottom:30px;
+font-weight:bold;
+}
+
+.galeria-servicios{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+}
+
+.item-servicio{
+width:200px;
+background:white; /* fondo blanco */
+border-radius:15px;
+padding:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+transition:transform 0.3s;
+}
+
+.item-servicio img{
+width:100%;
+background:white;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+transition:transform 0.3s;
+}
+
+.item-servicio img:hover{
+transform:scale(1.05);
+}
+
+.item-servicio p{
+margin-top:10px;
+font-size:16px;
+color:#444;
+font-weight:bold;
+}
+
+.anuncio p{
+overflow:hidden;
+white-space:nowrap;
+font-size:22px;
+color:#c95f59;
+animation:mover 20s linear ;
+}
+
+@keyframes mover{
+0%{transform:translateX(100%);}
+100%{transform:translateX(-100%);}
+}
+
+#gracias{
+text-align:center;
+padding:8px;
+margin:0;
+background:#fff0f5;
+}
+
+#gracias p{
+margin:0;
+font-size:18px;
+color:#c95f59;
+}
+
+#contacto{
+background:#c95f59;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:0px;
+}
+
+#contacto h2{
+margin-bottom:15px;
+}
+
+#contacto p{
+margin:5px;
+font-size:16px;
+}
+
+.copy{
+margin-top:15px;
+font-size:14px;
+opacity:0.8;
+}
+
+
+</style>
+
+
+<header>
+
+<img src="encabezadofondo2.jpeg">
+
+<div class="texto-encabezado">
+</div>
+
+</header>
+<body>
+<div class="anuncio">
+Maquillaje • Ropa • Utiles escolares • Arreglos florales eternos • Ramos de mariposas • Accesorios • Juguetes • Mochilas • ¡Y mucho más!
+</div>
+
+<!-- MENÚ -->
+<nav>
+<a href="#inicio">Inicio</a>
+<a href="#productos">Productos</a>
+<a href="#servicios">Servicios</a>
+<a href="#contacto">Contacto</a>
+</nav>
+
+<!-- INICIO -->
+<section id="inicio">
+<div class="texto">
+<h1>Sobre nosotros</h1> 
+<br><p>
+<p>
+En Make-up Yamilet nos dedicamos a
+ofrecer una linda selección de
+maquillaje, ropa de moda, cosméticos
+y arreglos de flores eternas.
+Nuestro objetivo es resaltar tu belleza y
+que te sientas especial en cada ocasión.
+Ven y descubre los mejores productos
+para realzar tu estilo y belleza.
+</p>
+<br><p>
+
+</div>
+
+<div class="imagen">
+<img src="inicioimagen.jpeg">
+</div>
+</section>
+
+<!-- PRODUCTOS -->
+
+
+<section id="productos">
+<h2>Nuestros Productos</h2>
+
+<div class="contenedor-productos">
+
+<!-- MAQUILLAJE -->
+<details class="producto">
+<summary>
+<img src="maquillaje.jpeg">
+<p>Maquillaje</p>
+</summary>
+<ul>
+<li>Labial mate</li>
+<li>Lip gloss</li>
+<li>Tinta para labios</li>
+<li>Bálsamos</li>
+<li>Bálsamo mágico</li>
+<li>Aceite hidratante de labios</li>
+<li>Fijador de maquillaje</li>
+<li>Paleta de sombras grades y chicas</li>
+<li>Esmalte para uñas mate </li>
+<li>Esmalte con glitter</li>
+<li>Pestañas postizas individuales</li>
+<li>Pestañas con aplicador y pegamento</li>
+<li>Uñas postizas</li>
+<li>Pupilentes</li>
+</ul>
+</details>
+
+<!-- ACCESORIOS DE MAQUILLAJE -->
+<details class="producto">
+<summary>
+<img src="accesoriosmaquillaje.jpeg">
+<p>Accesorios de maquillaje</p>
+</summary>
+<ul>
+<li>Brochas</li>
+<li>Set de 8 minibrochas</li>
+<li>Esponjas para maquillaje</li>
+<li>Cepillos para ceja y pestañas</li>
+<li>Espejo</li>
+<li>Espejo doble</li>
+<li>Peine con espejo incluido</li>
+<li>Espejo con luz LED y ventilador</li>
+<li>Cosmetiquera</li>
+</ul>
+</details>
+
+<!-- CUIDADO PERSONAL -->
+<details class="producto">
+<summary>
+<img src="cuidadopersonal.jpeg">
+<p>Cuidado personal</p>
+</summary>
+<ul>
+<li>Mascarillas de tela</li>
+<li>Mascarillas en crema</li>
+<li>Parches para acne</li>
+<li>Cera para depilar</li>
+<li>Crema depiladora </li>
+<li>Desodorante en toallitas</li>
+<li>Esponjas exfoliante</li>
+<li>Acetona en toallitas</li>
+<li>Pinzas</li>
+<li>Lima para pies</li>
+<li>Masajeadores</li>
+</ul>
+</details>
+
+<!-- CABELLO -->
+<details class="producto">
+<summary>
+<img src="accesorioscabello.jpeg">
+<p> Productos para el cabello</p>
+</summary>
+<ul>
+<li>Ligas</li>
+<li>Donas grandes para el cabello</li>
+<li>Moños en diferentes modelos</li>
+<li>Pasadores variados </li>
+<li>Diademas de diferentes modelos</li>
+<li>Trenza artificial</li>
+<li>Extensiones de colores</li>
+<li>Peines</li>
+<li>Gorras para dama y caballero </li>
+<li>Gorros para dama,caballero y kids</li>
+<li>Bufandas</li>
+<li>Orejeras</li>
+<li>Gorro para dormir</li>
+</ul>
+</details>
+
+<!-- joyeria -->
+<details class="producto">
+<summary>
+<img src="joyeria.jpeg">
+<p> Joyeria </p>
+</summary>
+<ul>
+<li>Anillos</li>
+<li>Anillos que brillan en la oscuridad</li>
+<li>Pulseras</li>
+<li>Cadenas</li>
+<li>Aretes</li>
+<li>Llaveros</li>
+</ul>
+</details>
+
+<!-- MOCHILAS  -->
+<details class="producto">
+<summary>
+<img src="mochilas.jpeg">
+<p> Mochilas y bolsos </p>
+</summary>
+<ul>
+<li>Bolsas para dama</li>
+<li>Bolsas para niñas</li>
+<li>Mochilas</li>
+<li>Mochila tipo maletín</li>
+<li>Monederos</li>
+<li>Carteras</li>
+<li>Loncheras</li>
+<li>Joyeros</li>
+<li>Closet armable</li>
+</ul>
+</details>
+
+<!-- ELECTRÓNICA -->
+<details class="producto">
+<summary>
+<img src="electronica.jpeg">
+<p>Electrónica </p>
+</summary>
+<ul>
+<li>Audífonos Bluetooth</li>
+<li>Bocinas</li>
+<li>Mini ventilador</li>
+<li>Ventilador con luz</li>
+<li>Termos digitales</li>
+<li>Reloj y despertador</li>
+<li>Lámpara de luna</li>
+</ul>
+</details>
+
+<!-- PAPELERÍA -->
+<details class="producto">
+<summary>
+<img src="papeleria.jpeg">
+<p>Papelería</p>
+</summary>
+<ul>
+<li>Marcadores de punta doble</li>
+<li>Plumones</li>
+<li>Crayolas</li>
+<li>Acuarelas</li>
+<li>Juegos geometricos</li>
+<li>Pegamento</li>
+<li>Sacapuntas</li>
+<li>Borradores</li>
+<li>Calculadoras</li>
+<li>Lapiceras</li>
+<li>Lapices</li>
+</ul>
+</details>
+
+</div>
+</section>
+
+
+<!-- SERVICIOS -->
+<section id="servicios">
+
+<h2>Nuestros servicios</h2>
+
+<p class="descripcion">
+Realizamos arreglos personalizados como ramos de flores eternas y detalles únicos para cualquier ocasión.
+</p>
+
+<div class="galeria-servicios">
+
+<div class="item-servicio">
+<img src="ramoazul.jpeg">
+<p>Ramo personalizado</p>
+</div>
+
+<div class="item-servicio">
+<img src="ramooso.jpeg">
+<p>Ramo con peluche </p>
+</div>
+
+<div class="item-servicio">
+<img src="ramoamarillo.jpeg">
+<p>Ramo de rosas eternas</p>
+</div>
+
+<div class="item-servicio">
+<img src="ramorosa.jpeg">
+<p>Ramo de rosas eternas</p>
+</div>
+
+<div class="item-servicio">
+<img src="ramorojo.jpeg">
+<p>Ramo con frase</p>
+</div>
+
+</section>
+
+<div class="anuncio">
+<p>✨ Gracias por visitar nuestra página, en linea te esperamos en nuestra tienda fisica ✨ ¡Vuelve pronto! </p>
+</div>
+
+<!-- CONTACTO -->
+<footer id="contacto">
+
+<h2>Contactanos</h2>
+
+<p>Dirección: San Miguel Axoxuca, Gro.  </p>  <p><a href="https://maps.app.goo.gl/v4Wd7D9iTXEd8DYu9">  "Makeup Yamilet" Google maps  </a>  
+<p> Num. de Teléfonos: #7571518778 
+#5541791763 </p>
+<p> WhatsApp: Sigue el canal <a href="https://whatsapp.com/channel/0029VaNWSkx8PgsLnmvKKr0M"> "Makeup Yamilet" </a> </p>
+
+
+<p class="copy">© 2026 Makeup Yamilet </p>
+
+</footer>
+
+</body>
+</html>
